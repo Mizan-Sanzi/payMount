@@ -18,3 +18,6 @@ document.getElementById('btn-login').addEventListener('click', function(event){
         alert('Something Wrong. Try Again.');
     }
 });
+const test = document.querySelector('.new-p');
+test.setAttribute('id', 'new-id');
+console.log(test);
