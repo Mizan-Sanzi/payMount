@@ -11,10 +11,10 @@ document.getElementById('btn-cashOut').addEventListener('click', function(event)
     //prevent page reload
     event.preventDefault();
     //step 2: get money from the input field to be added to the account
-    const cashOutInput = document.getElementById('inputMoney').value;
+    const cashOutInput = document.getElementById('cashOutAmount').value;
     console.log(cashOutInput);
     // and: get the inputed pin number
-    const inputPin = document.getElementById('addedPin').value;
+    const inputPin = document.getElementById('cashOutPin').value;
     console.log(inputPin);
     //step 3: verify the pin number
     //wrong way of verifying, it's temporary!
@@ -33,4 +33,4 @@ document.getElementById('btn-cashOut').addEventListener('click', function(event)
     else{
         alert('failed to add your amount to your account');
     }
-})
+});

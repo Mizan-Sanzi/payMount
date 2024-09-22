@@ -27,7 +27,7 @@ document.getElementById('btn-addMoney').addEventListener('click', function(event
         const balanceNumber = parseFloat(balance);
         const newBalance = addMoneyInputNumber+balanceNumber;
         console.log(newBalance);
-        // step 6: update the account balance
+         // step 6: update the account balance
         document.getElementById('currentBalance').innerText = newBalance;
     }
     else{
